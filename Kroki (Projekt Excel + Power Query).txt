@@ -1,0 +1,31 @@
+Kroki podczas wykonywania projektu.
+
+
+Power Query:
+1. Rodzielenie danych przy użyciu Power Query (dane dla każdego z wierszy były podane ciągiem bez spacji),
+2. Postawienie pytań (w arkuszu "Pytania") (co chcę wyciągnąć z tych danych),
+3. Usunięcie ewentualnych duplikatów,
+4. Usunięcie ewentualnych pustych wierszy,
+5. Usunięcie ewentualnych spacji przed lub po wartości we wszystkich kolumnach,
+6. Zmiana angielskich słów na polskie w kolumnach "Wykształcenie", "Status małżeński",
+7. Usunięcie niepotrzebnych kolumn (kolumn z danymi, które nie przydadzą się podczas wykonywania projektu),
+8. Zmiana wszystkich wartości "null" na "0" (zero),
+9. Dodanie "kolumny z przykładów" by pogrupować klientów wg wieku,
+10. Poprawa fromuły w języku M, dla kolumny grupowania wg wieku,
+11. Dodanie "kolumny z przykładów" by pogrupować klientów wg dochodu,
+12. Poprawa formuły w języku M, dla kolumny grupowania wg dochodu,
+13. Zmiana formatowania kolumn
+14. Usunięcie kolumn z datą urodzin klienta i przychodem (dzięki nowym kolumnom z pogrupowanymi klientami, te 2 kolumny stały się zbędne)
+15. Załadowanie danych do Excel'a do arkusza "Dane po przekształceniu w PQ"
+
+Excel:
+1. Dodanie arkuszy "Dashboard", "Tablice przestawne",
+2. Nadanie odpowiedniego formatowania kolumnom w tabeli uzyskanej po obróbce danych w Power Query,
+3. Stworzenie tabel przestawnych na podstawie, których będzie można wykonać wykresy, które wizualnie odpowiedzą na zadane pytania,
+4. Formatowanie tabel przestawnych,
+5. Stworzenie wykresów,
+6. Przeniesienie wykresów do arkusza "Dashboard"
+7. Wizualna obróbka wykresów by były bardziej czytelne oraz wizualnie atrakcyjne,
+8. Dodanie fragmentatorów by móc bardziej dokładnie określić grupę wiodących konsumentów dla danego produktu,
+9. Dodanie nagłówka,
+10. Wizualna poprawa wyglądu dashboard'u (Dodanie ikonek, poprawienie umiejscowienia i spójności wykresów oraz fragmentatorów),
